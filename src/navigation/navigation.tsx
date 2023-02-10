@@ -35,7 +35,7 @@ function renderLogo (focused: boolean, color: string){
   return (
     <Image 
       source={require('../../assets/imperial-small.png')}
-      style={{width:75, height:75, top:-15, tintColor:`${color}`}}
+      style={{width:45, height:45, top:5, tintColor:`${color}`}}
     />
   )
 }

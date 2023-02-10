@@ -8,7 +8,7 @@ const Stack  = createStackNavigator()
 export default function StarverseNavigation() {
   return (
     <Stack.Navigator>
-        <Stack.Screen name={'Starverse'} component={StarverseScreen} options={{headerTitleAlign: 'center'}}/>
+        <Stack.Screen name={'Starverse'} component={StarverseScreen} options={{headerTitleAlign: 'center', title: '', headerTransparent: true}}/>
         <Stack.Screen name={'Starverse Character'} component={CharacterScreen} options={{headerTitleAlign: 'center'}}/> 
     </Stack.Navigator>
   )
